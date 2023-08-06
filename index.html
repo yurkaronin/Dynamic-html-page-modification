@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+  <title>Пример динамического изменения HTML</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <section>
+    <div class="wrapper flex-center">
+      <h2 class="title">Пример динамического списка на js</h2>
+      <div class="group">
+        <input class="custom-input" id="listInput" type="text" placeholder="Введите элемент списка">
+        <button class="button" id="addButton">Добавить</button>
+      </div>
+      <ol class="custom-list" id="dynamicList">
+        <li>Вынести мусор</li>
+        <li>Купить хлеб и сахар</li>
+        <li>Заехать на работу за зарплатой</li>
+        <li>Покормить кота</li>
+        <!-- тут будут новые пункты  -->
+      </ol>
+    </div>
+  </section>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>
